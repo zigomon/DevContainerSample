@@ -1,0 +1,15 @@
+{
+    "name": "Rust Dev Container",
+    "image": "mcr.microsoft.com/devcontainers/rust:latest",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "rust-lang.rust-analyzer",
+                "vadimcn.vscode-lldb",
+                "JScearcy.rust-doc-viewer",
+                "fill-labs.dependi",
+                "tamasfe.even-better-toml"
+            ]
+        }
+    }
+}

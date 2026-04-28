@@ -1,0 +1,14 @@
+services:
+  go:
+    # image: mcr.microsoft.com/devcontainers/go:1-1.24-bookworm
+    build:
+      context: .
+      dockerfile: Dockerfile
+      
+    container_name: go
+    volumes:
+      - ..:/workspace/golang
+    stdin_open: true
+    tty: true
+
+    
