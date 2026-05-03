@@ -5,8 +5,8 @@ services:
       dockerfile: Dockerfile
       
     container_name: rust
-    volumes:
-      - ..:/workspace/rust
+    # volumes:
+    #   - ..:/workspace/rust
     stdin_open: true
     tty: true
 
